@@ -1,0 +1,41 @@
+.contenido {
+    grid-column: span 3;
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenido > form {
+    width: 400px;
+    height: 400px;
+    padding: 35px;
+    color: black;
+    background: #00469c;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.contenido > form > input[type="text"]{
+        width: 100%;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+#nombreP { 
+    width: 100%;
+    height: 30px;
+}
+
+#enviar { 
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: white;
+    color: #00469c;
+    font-size: 20px;
+    font-style:oblique;
+    cursor: pointer;
+}

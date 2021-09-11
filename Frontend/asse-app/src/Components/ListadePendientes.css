@@ -1,0 +1,18 @@
+#listapen{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    min-width: 400px;
+    
+}
+#listapen > li {
+    display: grid;
+    grid-template-columns: 170px 210px 200px 50px;
+   /* display:flexbox;*/
+    text-align: left;
+    align-items: center;
+    justify-items: left;
+    justify-content: center;
+    gap: 2px;
+    padding: 5px;
+}

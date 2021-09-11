@@ -1,0 +1,43 @@
+.header {
+  grid-column: 1/6;
+  background: #00469c; 
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+.animado {
+    animation-name: animacion-img;
+    animation-duration: 7s;
+    animation-iteration-count: 3;
+  }
+  
+.animado2 {
+    animation-name: animacion-img;
+    animation-duration: 7s;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+}
+  
+.animado3 {
+    animation-name: animacion-img;
+    animation-duration: 7s;
+    animation-iteration-count: 3;
+    animation-delay: 4s;
+}
+  
+@keyframes animacion-img {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+  }
+  

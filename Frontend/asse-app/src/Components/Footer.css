@@ -1,0 +1,7 @@
+.Footer {
+    grid-column: 1/6;
+    background: #00469c;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}

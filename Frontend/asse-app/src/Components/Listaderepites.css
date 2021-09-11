@@ -1,0 +1,17 @@
+#listamed{
+    margin-left: 40px;
+    margin-right: 10px;
+    list-style: none;
+    min-width: 400px;
+    
+}
+#listamed > li {
+    display: grid;
+    grid-template-columns: 300px 250px 50px;
+    text-align: center;
+    align-items: center;
+    justify-items: left;
+    justify-content: center;
+    gap: 5px;
+    padding: 15px;
+}
